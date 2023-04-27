@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: #ddd;
+      }
+      h2{
+        text-align: center;
+      }
+  form{
+    border-radius: 9px;
+    height: 440px;
+    background-image: url("./image/back.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+  }
+  form input{
+    height: 40px;
+    display: flex;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  form p{
+   margin: 20px;
+  }
+   button{
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
+    margin: 0;
+  position: absolute;
+  top: 80%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    
+   }
+  button a{
+    text-align: center;
+    margin:30px;
+    text-decoration: none;
+    color: black;
+  }
+  button a:hover{
+    color: red;
+  }
+    </style>
+</head>
+<body>
+    <h2>Login Form</h2>
+    <form>
+      <div class="logo">
+        <img src="" alt="">
+      </div>
+             <p>Enter name : </p>
+            <input type="text"  placeholder="Enter Name" required>
+            <p>Enter Email : </p>
+            <input type="text"  placeholder="Enter Email" required>
+            <p>Enter Password : </p>
+            <input type="text"  placeholder="Enter Password" required>
+            <button><a href="/">Sign In</a></button>
+    </form>
+</body>
+</html>
